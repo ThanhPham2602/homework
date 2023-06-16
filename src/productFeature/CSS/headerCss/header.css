@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 70px;
+
+    /* width: 1230px; */
+    background-color: white;
+    padding: 10px 185px;
+    /* margin: 0 auto ; */
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .4) ;
+}
+.logo{
+    width: 149px;
+    height: 46px;
+}
+.menuButton{
+
+    background-image: linear-gradient(to left, #4D5EF6, #F64D4D
+    );
+    width: 149px;
+    height: 46px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    position: inherit ;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: auto;
+}   
+
+.search{
+    width: 396px;
+    height: 46px;
+}
+.add-fav{
+    height: 46px ;
+    width: 46px;
+
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 8px;
+
+    background-color: #ECF4FF;
+}
+
+.cart{
+    height: 46px ;
+    width: 46px;
+
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 8px;
+
+    background-color: #ECF4FF;
+}
+.login{
+    color: black;
+    align-items: center;
+
+    height: 46px ;
+    width: 105px;
+    display: inline-block;
+  padding: 1px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 10px;
+
+  background: linear-gradient(to left, rgba(77, 94, 246, 0.3) , rgba(246, 77, 77, 0.3)
+  );  
+  /* opacity: 0.3 ; */
+}

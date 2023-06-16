@@ -8,7 +8,9 @@ Product.propTypes = {
 function Product({ product }) {
   return (
     <div>
-      {product.name} {product.price}
+      {product.pic}
+      {product.name}
+      {product.price}
     </div>
   );
 }
