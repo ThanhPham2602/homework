@@ -6,6 +6,7 @@ import DropDownLogin from "../../dropdown/DropDownLogin";
 import { HeartOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 
 import logo from "../CSS/headerCss/NextLogo.jpg";
+import { Link } from "react-router-dom";
 
 Header.propTypes = {};
 
@@ -16,7 +17,12 @@ function Header(props) {
   return (
     <header className="header">
       <div className="header2">
-        <img className="logo" src={logo} alt="logo" />
+        <div>
+          <Link to={`/`}>
+            <img className="logo" src={"/images/Logo.svg"} alt="logo" />
+          </Link>
+        </div>
+
         <div className="menuButton">Menu</div>
         <div className="search">
           <Search
