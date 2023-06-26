@@ -1,0 +1,17 @@
+.SkeletonContainer{
+    
+    margin: 0 auto;
+}
+.ProductSkeleton__ul{
+    display:inline-flex;
+    list-style-type: none;
+    /* margin: 60px 0; */
+    justify-content: space-between;
+    padding: 0;
+    
+}
+.ProductSkeleton__ul>li{
+    height: 390px;
+    width: 230px;
+    /* margin-right: 20px; */
+}

@@ -1,0 +1,23 @@
+.company{
+   display: flex;
+   
+    margin: auto;
+}
+.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    gap: 20px;
+
+    
+}
+.imageItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFFFC;
+
+    border-radius: 8px;
+    height: 100px;
+    width: 188px;
+}

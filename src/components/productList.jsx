@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Skeleton } from "antd";
+// import { Skeleton } from "antd";
 import Product from "./product";
+import "../productFeature/CSS/ContensCss/productList.css";
 productList.propTypes = {
   length: PropTypes.object,
 };
@@ -11,14 +12,14 @@ productList.defaultProps = {
 
 function productList({ data }) {
   return (
-    <div container>
-      {data.map((product) => (
-        <div item key={product.id} xs={12} sm={6} md={4} lg={3}>
-          <div padding={1}>
+    <div>
+      <ul className="productList__ul">
+        {data.map((product) => (
+          <li key={product.id}>
             <Product product={product} />
-          </div>
-        </div>
-      ))}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

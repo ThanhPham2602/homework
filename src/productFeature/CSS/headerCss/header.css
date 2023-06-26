@@ -1,14 +1,19 @@
 .header{
+    
+    
+    background-color: white;
+    /* padding: 10px 185px; */
+    
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .4) ;
+}
+.header2{
+    max-width: 1230px;
     display: flex;
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 70px;
-
-    /* width: 1230px; */
-    background-color: white;
-    padding: 10px 185px;
-    /* margin: 0 auto ; */
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .4) ;
+    align-items: center;
+    margin: 0 auto;
 }
 .logo{
     width: 149px;
@@ -20,17 +25,19 @@
     );
     width: 149px;
     height: 46px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
 
     cursor: pointer;
     color: white;
-    align-items: center;
+    
     position: inherit ;
     letter-spacing: 0.01em;
     text-transform: uppercase;
     text-align: center;
-    padding: auto;
+    
 }   
 
 .search{
@@ -41,28 +48,38 @@
     height: 46px ;
     width: 46px;
 
-    display: inline-block;
-    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
     cursor: pointer;
     border: 1px solid #ccc;
     position: relative;
     border-radius: 8px;
 
     background-color: #ECF4FF;
+    color: #0D63F3;
+    font-size: 20px;
 }
 
-.cart{
+.cartHeader{
     height: 46px ;
     width: 46px;
 
-    display: inline-block;
-    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
     cursor: pointer;
     border: 1px solid #ccc;
     position: relative;
     border-radius: 8px;
-
+    
     background-color: #ECF4FF;
+
+    color: #0D63F3;
+    font-size: 20px;
 }
 .login{
     color: black;
@@ -71,6 +88,8 @@
     height: 46px ;
     width: 105px;
     display: inline-block;
+    position: relative;
+    
   padding: 1px;
   cursor: pointer;
   border: 1px solid #ccc;
@@ -80,4 +99,61 @@
   background: linear-gradient(to left, rgba(77, 94, 246, 0.3) , rgba(246, 77, 77, 0.3)
   );  
   /* opacity: 0.3 ; */
+}
+.dropDownLogin{
+    display: none;
+}
+/* .login:hover{
+    color: #0D63F3;
+} */
+.login:hover .dropDownLogin{
+    display: block;
+    position: absolute;
+    /* height: 185px;
+    width: 275px;
+    background-color: #FBFBFB;
+    border-radius: 10px; */
+    top: 45px;
+    right: -30px;
+    z-index: 2;
+    height: 185px;
+    background-color: transparent;
+    padding-top: 20px;
+}
+.dropDownLogin:hover{
+    display: block;
+}
+.dropDownInfor{
+    display: block;
+    height: 185px;
+    width: 275px;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .4)  ;
+}
+.dropDownInfor1{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.dropDownInfor2{
+   list-style-type: none; 
+}
+.dropDownInfor3{
+    display: flex;
+    flex-direction: row;    
+    /* flex-wrap: nowrap; */
+    justify-content: flex-start;
+   
+    
+}
+.dropDownInfor3>li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }

@@ -1,17 +1,24 @@
 .Footer{
   background: linear-gradient(to left, rgba(77, 94, 246, 0.3) , rgba(246, 77, 77, 0.3)
-  );  
+  );
+  
+  /* justify-content: space-around;
+  display: flex; */
+  
 }
-.Footer_litter{
-  /* margin: 10px; */
-  padding: 10px 185px;
+.Footer2{
+  max-width: 1230px;
+  margin: 0 auto;
 }
+
 .Footer__Upper{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
-  align-items: center;
-  margin-right: 1rem;
+  margin: 0 auto;
+  padding-top: 30px;
+  /* align-items: center; */
+  /* margin-right: 1rem; */
 }
 
 .Documents{
@@ -35,14 +42,37 @@
 .documents__list>li{
   margin-bottom: 1rem;
 }
+.Contacts{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Contacts__icon{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  flex-flow: row nowraps;
+}
+.Contacts__icon>li{
+  margin-right: 26px;
+  height: 42px;
+  width: 42px;
+}
+
 .line{
-  width: 100%;
-  border-bottom: 1px solid;
-  border-bottom-color: linear-gradient(to left, rgba(77, 94, 246, 1) , rgba(246, 77, 77, 1)
-  );  
-  align-items: center;
+  max-width: 1230px;
+  border-bottom: 1px solid;  
+  border-image: linear-gradient(to right, rgba(77, 94, 246, 1) , rgba(246, 77, 77, 1) ) 1;
+  margin: 0 auto;
 }
 .Footer__Lower{
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 39px;
+  padding-top: 39px;
+  padding-right: 17%
 }

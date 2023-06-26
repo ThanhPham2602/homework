@@ -1,0 +1,35 @@
+.Category{
+    height: 200px;
+    width: 136px;
+    /* margin: 0 auto; */
+    /* padding: 0 180px; */
+    cursor: pointer;
+}
+.Category__ul{
+    display: flex;
+    list-style-type: none;
+   
+    
+    /* align-items: center; */
+    padding: 9px 0;
+    
+}
+
+.Category__Li{
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    
+    height: 200px;
+    width: 136px;
+    margin-right: 21px;
+
+    font-size: 16px;
+    line-height: 19px;
+
+    overflow: hidden;
+}
+.Category__Li>p{
+    text-align: center;
+
+}

@@ -1,4 +1,4 @@
-.slideshow-container {
+/* .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -83,4 +83,29 @@
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  } */
+
+  .each-slide-effect{
+ 
+    
+    /* max-width: 1230px; */
+    overflow: hidden;
   }
+  .each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+       
+    
+  }
+  .react-slideshow-container{
+    border-radius: 10px;
+    max-width: 1230px;
+    margin: 65px auto;
+    overflow: hidden;
+    /* padding: 65px 0; */
+  }
+  /* .nav default-nav {
+    position
+  } */
